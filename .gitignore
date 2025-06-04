@@ -1,0 +1,81 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio + VS for Mac
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# .NET generated
+*.dbmdl
+*.log
+*.pidb
+*.svclog
+*.pdb
+
+# EF Core migrations (optional if you want to recreate)
+**/Migrations/
+
+# Publish artifacts
+**/publish/
+**/wwwroot/
+
+# User secrets & environment configs
+secrets.json
+*.env
+.env*
+
+# NuGet
+*.nupkg
+.nuget/
+
+# npm / frontend (if using Blazor/SPA)
+node_modules/
+dist/
+build/
+
+# Reports and packages
+*.rdl.data
+*.rptproj.user
+*.rptproj
+*.dtsx
+*.dtproj.user
+
+# Logs & dumps
+*.log
+*.slog
+*.sdf
+*.dump
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
+*.old
+*.orig
+
+# Ignore test result files
+TestResults/
+coverage/
+
+# Local settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Ignore EF migration snapshots (optional)
+**/Snapshot.cs
